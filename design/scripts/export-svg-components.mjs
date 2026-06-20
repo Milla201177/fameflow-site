@@ -287,7 +287,7 @@ const components = [
       ${text(213.25, 29, "Character", 14, 400, colors.text, "middle")}
       ${text(297.75, 29, "Favorites", 14, 400, colors.text, "middle")}
       ${rect(0, 64, 167, 56, 28, colors.brandSoft, "rgba(219,212,250,0.76)", 1, 'filter="url(#shadow)"')}
-      <g transform="translate(16 80)">${icon.user(0, 0, colors.text)}</g>${text(49, 99, "All subje...", 14, 400)}
+      <g transform="translate(16 80)">${icon.user(0, 0, colors.text)}</g>${text(49, 99, "All", 14, 400)}
       <g transform="translate(127 80) rotate(90 12 12)">${icon.chevron(0, 0, colors.text)}</g>
       ${rect(175, 64, 167, 56, 28, colors.brandSoft, "rgba(219,212,250,0.76)", 1, 'filter="url(#shadow)"')}
       <g transform="translate(191 80)">${icon.grid(0, 0, colors.text)}</g>${text(224, 99, "All media", 14, 400)}
