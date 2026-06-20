@@ -1,0 +1,208 @@
+{
+  "target": {
+    "monochrome": 60,
+    "lavenderPrimary": 30,
+    "mintSecondary": 10
+  },
+  "actual": {
+    "monochrome": 87.2,
+    "lavenderPrimary": 10.9,
+    "mintSecondary": 1.8,
+    "other": 0
+  },
+  "note": "Measured rendered pixels of individual SVG components, excluding transparent pixels and the overview sheet background.",
+  "files": [
+    {
+      "file": "01-app-header.svg",
+      "totalPixels": 28080,
+      "monochrome": 96.8,
+      "lavenderPrimary": 3.2,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "02-mode-switch.svg",
+      "totalPixels": 21162,
+      "monochrome": 58.3,
+      "lavenderPrimary": 41.7,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "03-subject-row-empty.svg",
+      "totalPixels": 29380,
+      "monochrome": 84.1,
+      "lavenderPrimary": 12.6,
+      "mintSecondary": 1.9,
+      "other": 1.4
+    },
+    {
+      "file": "04-media-tabbar.svg",
+      "totalPixels": 19238,
+      "monochrome": 95.5,
+      "lavenderPrimary": 4.5,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "05-prompt-composer.svg",
+      "totalPixels": 45772,
+      "monochrome": 98.3,
+      "lavenderPrimary": 1.7,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "06-select-controls.svg",
+      "totalPixels": 20392,
+      "monochrome": 100,
+      "lavenderPrimary": 0,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "07-primary-buttons.svg",
+      "totalPixels": 31914,
+      "monochrome": 26.1,
+      "lavenderPrimary": 49.8,
+      "mintSecondary": 24.1,
+      "other": 0
+    },
+    {
+      "file": "08-copilot-card.svg",
+      "totalPixels": 22430,
+      "monochrome": 92.9,
+      "lavenderPrimary": 7.1,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "09-quick-chips.svg",
+      "totalPixels": 16785,
+      "monochrome": 68.4,
+      "lavenderPrimary": 18.5,
+      "mintSecondary": 13.1,
+      "other": 0
+    },
+    {
+      "file": "10-gallery-filters.svg",
+      "totalPixels": 26406,
+      "monochrome": 93,
+      "lavenderPrimary": 7,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "11-gallery-card.svg",
+      "totalPixels": 37958,
+      "monochrome": 53.2,
+      "lavenderPrimary": 46.8,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "12-campaign-card.svg",
+      "totalPixels": 32558,
+      "monochrome": 82.2,
+      "lavenderPrimary": 0,
+      "mintSecondary": 17.8,
+      "other": 0
+    },
+    {
+      "file": "13-field-card.svg",
+      "totalPixels": 27836,
+      "monochrome": 100,
+      "lavenderPrimary": 0,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "14-stepper.svg",
+      "totalPixels": 2908,
+      "monochrome": 71.7,
+      "lavenderPrimary": 28.3,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "15-influencer-row.svg",
+      "totalPixels": 28454,
+      "monochrome": 88,
+      "lavenderPrimary": 6.7,
+      "mintSecondary": 5.3,
+      "other": 0
+    },
+    {
+      "file": "16-bottom-nav.svg",
+      "totalPixels": 34320,
+      "monochrome": 87.4,
+      "lavenderPrimary": 12.6,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "17-bottom-sheet.svg",
+      "totalPixels": 111908,
+      "monochrome": 83.7,
+      "lavenderPrimary": 15.1,
+      "mintSecondary": 1.1,
+      "other": 0
+    },
+    {
+      "file": "18-side-menu.svg",
+      "totalPixels": 165360,
+      "monochrome": 98,
+      "lavenderPrimary": 2,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "19-toast.svg",
+      "totalPixels": 16564,
+      "monochrome": 100,
+      "lavenderPrimary": 0,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "20-empty-state.svg",
+      "totalPixels": 88508,
+      "monochrome": 87.8,
+      "lavenderPrimary": 12.2,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "21-dialog.svg",
+      "totalPixels": 80990,
+      "monochrome": 88.8,
+      "lavenderPrimary": 11.2,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "22-offline-card.svg",
+      "totalPixels": 85088,
+      "monochrome": 86.1,
+      "lavenderPrimary": 13.3,
+      "mintSecondary": 0.6,
+      "other": 0
+    },
+    {
+      "file": "23-source-menu.svg",
+      "totalPixels": 80984,
+      "monochrome": 99.5,
+      "lavenderPrimary": 0.5,
+      "mintSecondary": 0,
+      "other": 0
+    },
+    {
+      "file": "24-project-option.svg",
+      "totalPixels": 23072,
+      "monochrome": 83.9,
+      "lavenderPrimary": 16.1,
+      "mintSecondary": 0,
+      "other": 0
+    }
+  ]
+}

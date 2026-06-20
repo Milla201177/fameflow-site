@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="318" height="620" viewBox="0 0 318 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>FameFlow component</title>
+<defs>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E1E24" flood-opacity="0.10"/>
+  </filter>
+  <linearGradient id="logoGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#DBD4FA"/>
+    <stop offset="1" stop-color="#8F7CF6"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0" y1="0" x2="120" y2="96" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C6FCE4"/>
+    <stop offset="1" stop-color="#67D7AA"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0" y1="0" x2="140" y2="96" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F5F1FF"/>
+    <stop offset="1" stop-color="#DBD4FA"/>
+  </linearGradient>
+  
+</defs>
+
+      <rect x="0" y="0" width="318" height="620" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" />
+      
+  <g>
+    <rect x="24" y="24" width="32" height="32" rx="9" fill="url(#logoGrad)"/>
+    <path d="M33 44V34h14M33 39h11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g><text x="64" y="46" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0" text-anchor="start">FameFlow</text>
+      <rect x="24" y="82" width="270" height="72" rx="20" fill="#F7F4FF" stroke="#E8E6F2" stroke-width="1" />
+      <text x="44" y="110" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0" text-anchor="start">Current project</text><text x="44" y="136" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0" text-anchor="start">TEST</text><text x="186" y="126" fill="#8F7CF6" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0" text-anchor="start">Switch</text><g transform="translate(260 108)"><path d="m8 5 6 7-6 7" stroke="#6F6F7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="24" y="190" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Create</text>
+      <rect x="24" y="204" width="270" height="52" rx="16" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><text x="44" y="237" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0" text-anchor="start">Co-Pilot</text><g transform="translate(260 218)"><path d="m8 5 6 7-6 7" stroke="#6F6F7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <rect x="24" y="264" width="270" height="52" rx="16" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><text x="44" y="297" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0" text-anchor="start">Generate</text><g transform="translate(260 278)"><path d="m8 5 6 7-6 7" stroke="#6F6F7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <rect x="24" y="324" width="270" height="52" rx="16" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><text x="44" y="357" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0" text-anchor="start">Gallery</text><g transform="translate(260 338)"><path d="m8 5 6 7-6 7" stroke="#6F6F7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <text x="24" y="412" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Account</text>
+      <text x="44" y="446" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0" text-anchor="start">Olivia Reed</text>
+      <rect x="24" y="466" width="270" height="64" rx="18" fill="#F7F4FF" stroke="#E8E6F2" stroke-width="1" /><text x="44" y="500" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="0" text-anchor="start">1,240 credits</text><rect x="198" y="482" width="76" height="32" rx="16" fill="#8F7CF6" stroke="none" stroke-width="1" /><text x="236" y="503" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="middle">Add cash</text>
+      <rect x="24" y="542" width="270" height="52" rx="16" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><text x="44" y="575" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0" text-anchor="start">Settings</text><g transform="translate(260 556)"><path d="m8 5 6 7-6 7" stroke="#6F6F7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+    
+</svg>
