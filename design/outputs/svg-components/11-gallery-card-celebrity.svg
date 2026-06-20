@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167" height="188" viewBox="0 0 167 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>FameFlow component</title>
+<defs>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
+    <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1E1E24" flood-opacity="0.10"/>
+  </filter>
+  <linearGradient id="logoGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#DBD4FA"/>
+    <stop offset="1" stop-color="#8F7CF6"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0" y1="0" x2="120" y2="96" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#C6FCE4"/>
+    <stop offset="1" stop-color="#67D7AA"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0" y1="0" x2="140" y2="96" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F5F1FF"/>
+    <stop offset="1" stop-color="#DBD4FA"/>
+  </linearGradient>
+  
+</defs>
+
+  <defs>
+    <linearGradient id="gallery-celebrity-thumb" x1="0" y1="0" x2="167" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8FC4E8"/>
+      <stop offset="0.52" stop-color="#E9C89F"/>
+      <stop offset="1" stop-color="#496C61"/>
+    </linearGradient>
+    <linearGradient id="gallery-celebrity-fade" x1="83.5" y1="58" x2="83.5" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="167" height="188" rx="8" fill="#FFFFFF" stroke="none" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="167" height="128" rx="8" fill="url(#gallery-celebrity-thumb)" stroke="none" stroke-width="1" />
+  <ellipse cx="68" cy="36" rx="34" ry="16" fill="#FFFFFF" fill-opacity="0.46"/>
+  <ellipse cx="90" cy="46" rx="26" ry="15" fill="#F1C5A6" fill-opacity="0.72"/>
+  <circle cx="82" cy="43" r="18" fill="#F1C5A6" fill-opacity="0.62"/>
+  <rect x="0" y="58" width="167" height="70" fill="url(#gallery-celebrity-fade)"/>
+  <circle cx="28" cy="28" r="20" fill="#E3DDFC"/>
+  <circle cx="28" cy="28" r="19.5" stroke="#4D35C7" stroke-opacity="0.42"/>
+  <g transform="translate(16 16)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#4D35C7" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#4D35C7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <circle cx="143" cy="24" r="16" fill="#FFFFFF" fill-opacity="0.84"/>
+  <path d="M151.5 21.8c0 4.6-8.5 9.2-8.5 9.2s-8.5-4.6-8.5-9.2A4.5 4.5 0 0 1 143 19a4.5 4.5 0 0 1 8.5 2.8Z" stroke="#17151F" stroke-width="1.8" fill="none"/>
+  <rect x="8" y="136" width="74" height="20" rx="10" fill="#F5F3FE" stroke="none" stroke-width="1" />
+  <text x="16" y="151" fill="#4D35C7" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">Celebrity</text>
+  <text x="8" y="175" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="0" text-anchor="start">Dwayne Johnson</text>
+  <circle cx="147" cy="161" r="1.5" fill="#1E1E24"/>
+  <circle cx="147" cy="168" r="1.5" fill="#1E1E24"/>
+  <circle cx="147" cy="175" r="1.5" fill="#1E1E24"/>
+
+</svg>

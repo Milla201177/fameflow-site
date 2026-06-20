@@ -86,6 +86,37 @@ const roundButton = (x, y, symbol) => `${rect(x, y, 40, 40, 20, colors.surface, 
 const chip = (x, y, label, active = false, w = 82, accent = colors.primary) =>
   `${rect(x, y, w, 36, 18, active ? accent : colors.surface, active ? accent : colors.border)}${text(x + w / 2, y + 23, label, 13, 600, active ? "#fff" : colors.text, "middle")}`;
 
+const galleryCard = ({ id, label, title, ink, accent, tagFill, thumbStops, portrait }) => `
+  <defs>
+    <linearGradient id="${id}-thumb" x1="0" y1="0" x2="167" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="${thumbStops[0]}"/>
+      <stop offset="0.52" stop-color="${thumbStops[1]}"/>
+      <stop offset="1" stop-color="${thumbStops[2]}"/>
+    </linearGradient>
+    <linearGradient id="${id}-fade" x1="83.5" y1="58" x2="83.5" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+  ${rect(0, 0, 167, 188, 8, colors.surface, "none", 1, 'filter="url(#shadow)"')}
+  ${rect(0, 0, 167, 128, 8, `url(#${id}-thumb)`)}
+  <ellipse cx="68" cy="36" rx="34" ry="16" fill="#FFFFFF" fill-opacity="0.46"/>
+  <ellipse cx="90" cy="46" rx="26" ry="15" fill="${portrait}" fill-opacity="0.72"/>
+  <circle cx="82" cy="43" r="18" fill="${portrait}" fill-opacity="0.62"/>
+  <rect x="0" y="58" width="167" height="70" fill="url(#${id}-fade)"/>
+  <circle cx="28" cy="28" r="20" fill="${accent}"/>
+  <circle cx="28" cy="28" r="19.5" stroke="${ink}" stroke-opacity="0.42"/>
+  <g transform="translate(16 16)">${icon.image(0, 0, ink)}</g>
+  <circle cx="143" cy="24" r="16" fill="#FFFFFF" fill-opacity="0.84"/>
+  <path d="M151.5 21.8c0 4.6-8.5 9.2-8.5 9.2s-8.5-4.6-8.5-9.2A4.5 4.5 0 0 1 143 19a4.5 4.5 0 0 1 8.5 2.8Z" stroke="#17151F" stroke-width="1.8" fill="none"/>
+  ${rect(8, 136, label === "Celebrity" ? 74 : 80, 20, 10, tagFill)}
+  ${text(16, 151, label, 14, 400, ink)}
+  ${text(8, 175, title, 14, 500, colors.text)}
+  <circle cx="147" cy="161" r="1.5" fill="${colors.text}"/>
+  <circle cx="147" cy="168" r="1.5" fill="${colors.text}"/>
+  <circle cx="147" cy="175" r="1.5" fill="${colors.text}"/>
+`;
+
 const components = [
   {
     name: "01-app-header",
@@ -264,23 +295,34 @@ const components = [
     `,
   },
   {
-    name: "11-gallery-card",
-    width: 162,
-    height: 236,
-    body: `
-      ${rect(0, 0, 162, 236, 20, colors.surface, colors.border)}
-      ${rect(10, 10, 142, 142, 16, "url(#purpleGrad)")}
-      <circle cx="81" cy="78" r="34" fill="#FFFFFF" fill-opacity="0.42"/>
-      <path d="M66 94c8-19 22-19 30 0" stroke="#8F7CF6" stroke-width="5" stroke-linecap="round"/>
-      <circle cx="81" cy="67" r="19" fill="#8F7CF6" fill-opacity="0.75"/>
-      ${rect(18, 18, 34, 28, 14, "#FFFFFF", "none", 1, 'fill-opacity="0.88"')}
-      <g transform="translate(23 20)">${icon.image(0, 0, colors.primary)}</g>
-      ${rect(110, 18, 32, 28, 14, "#FFFFFF", "none", 1, 'fill-opacity="0.88"')}
-      <path d="M126 24l2.3 5.2 5.7.4-4.4 3.6 1.3 5.6-4.9-3-4.9 3 1.3-5.6-4.4-3.6 5.7-.4L126 24Z" fill="${colors.primary}"/>
-      ${text(14, 178, "Character", 12, 700, colors.primary)}
-      ${text(14, 204, "Mina portrait", 15, 700)}
-      <circle cx="136" cy="196" r="3" fill="${colors.muted}"/><circle cx="136" cy="204" r="3" fill="${colors.muted}"/><circle cx="136" cy="212" r="3" fill="${colors.muted}"/>
-    `,
+    name: "11-gallery-card-celebrity",
+    width: 167,
+    height: 188,
+    body: galleryCard({
+      id: "gallery-celebrity",
+      label: "Celebrity",
+      title: "Dwayne Johnson",
+      ink: "#4D35C7",
+      accent: "#E3DDFC",
+      tagFill: "#F5F3FE",
+      thumbStops: ["#8FC4E8", "#E9C89F", "#496C61"],
+      portrait: "#F1C5A6",
+    }),
+  },
+  {
+    name: "11-gallery-card-character",
+    width: 167,
+    height: 188,
+    body: galleryCard({
+      id: "gallery-character",
+      label: "Character",
+      title: "Lyria Silverwind",
+      ink: "#0B5B46",
+      accent: "#B1F2E4",
+      tagFill: "#E3FAF5",
+      thumbStops: ["#DBEEF5", "#B7C7C2", "#6A7D83"],
+      portrait: "#DFF7F0",
+    }),
   },
   {
     name: "12-campaign-card",
@@ -615,14 +657,32 @@ const spec = {
       ["v", -22, 64, 120, "56px"],
     ],
   },
-  "11-gallery-card": {
-    notes: ["card 162x236 r20", "stroke 1 #E8E6F2", "outer padding 10px", "preview 142x142 r16", "body starts y178", "menu dots x136"],
+  "11-gallery-card-celebrity": {
+    notes: ["celebrity card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 40x40", "favorite 32x32", "tag 74x20 r10", "tag fill #F5F3FE ink #4D35C7"],
     arrows: [
-      ["h", 0, 162, 264, "162px"],
-      ["v", -22, 0, 236, "236px"],
-      ["h", 0, 10, 248, "10px"],
-      ["h", 10, 152, 254, "142px"],
-      ["v", 174, 10, 152, "142px"],
+      ["h", 0, 167, 216, "167px"],
+      ["v", -22, 0, 188, "188px"],
+      ["v", 179, 0, 128, "128px"],
+      ["v", 191, 128, 188, "60px"],
+      ["h", 0, 8, 200, "8px"],
+      ["h", 8, 82, 164, "74px"],
+      ["h", 8, 131, 188, "123px"],
+      ["h", 8, 48, 52, "40px"],
+      ["h", 127, 159, 44, "32px"],
+    ],
+  },
+  "11-gallery-card-character": {
+    notes: ["character card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 40x40", "favorite 32x32", "tag 80x20 r10", "tag fill #E3FAF5 ink #0B5B46"],
+    arrows: [
+      ["h", 0, 167, 216, "167px"],
+      ["v", -22, 0, 188, "188px"],
+      ["v", 179, 0, 128, "128px"],
+      ["v", 191, 128, 188, "60px"],
+      ["h", 0, 8, 200, "8px"],
+      ["h", 8, 88, 164, "80px"],
+      ["h", 8, 131, 188, "123px"],
+      ["h", 8, 48, 52, "40px"],
+      ["h", 127, 159, 44, "32px"],
     ],
   },
   "12-campaign-card": {
