@@ -745,9 +745,9 @@
   <ellipse cx="90" cy="46" rx="26" ry="15" fill="#F1C5A6" fill-opacity="0.72"/>
   <circle cx="82" cy="43" r="18" fill="#F1C5A6" fill-opacity="0.62"/>
   <rect x="0" y="58" width="167" height="70" fill="url(#gallery-celebrity-fade)"/>
-  <circle cx="28" cy="28" r="20" fill="#E3DDFC"/>
-  <circle cx="28" cy="28" r="19.5" stroke="#4D35C7" stroke-opacity="0.42"/>
-  <g transform="translate(16 16)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#4D35C7" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#4D35C7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <circle cx="24" cy="24" r="16" fill="#E3DDFC"/>
+  <circle cx="24" cy="24" r="15.5" stroke="#4D35C7" stroke-opacity="0.42"/>
+  <g transform="translate(12 12)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#4D35C7" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#4D35C7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
   <circle cx="143" cy="24" r="16" fill="#FFFFFF" fill-opacity="0.84"/>
   <path d="M151.5 21.8c0 4.6-8.5 9.2-8.5 9.2s-8.5-4.6-8.5-9.2A4.5 4.5 0 0 1 143 19a4.5 4.5 0 0 1 8.5 2.8Z" stroke="#17151F" stroke-width="1.8" fill="none"/>
   <rect x="8" y="136" width="74" height="20" rx="10" fill="#F5F3FE" stroke="none" stroke-width="1" />
@@ -793,9 +793,9 @@
   <path d="M8 188L131 188" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
   <text x="69.5" y="182" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">123px</text>
 
-<path d="M8 44L8 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M48 44L48 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M8 52L48 52" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="28" y="46" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">40px</text>
+<path d="M8 44L8 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M40 44L40 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M8 52L40 52" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="24" y="46" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">32px</text>
 
 <path d="M127 36L127 52" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M159 36L159 52" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
   <path d="M127 44L159 44" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
@@ -812,7 +812,7 @@
   <text x="193" y="42" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="0" text-anchor="start">fill / color</text>
 
 </g>
-<rect x="20" y="336" width="292" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="354" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="362" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">celebrity card 167x188 r8</text><text x="32" y="380" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">preview 167x128</text><text x="32" y="398" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body 167x60</text><text x="32" y="416" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body padding 8px</text><text x="32" y="434" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">media button 40x40</text><text x="32" y="452" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">favorite 32x32</text><text x="32" y="470" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag 74x20 r10</text><text x="32" y="488" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag fill #F5F3FE ink #4D35C7</text>
+<rect x="20" y="336" width="292" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="354" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="362" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">celebrity card 167x188 r8</text><text x="32" y="380" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">preview 167x128</text><text x="32" y="398" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body 167x60</text><text x="32" y="416" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body padding 8px</text><text x="32" y="434" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">media button 32x32</text><text x="32" y="452" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">favorite 32x32</text><text x="32" y="470" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag 74x20 r10</text><text x="32" y="488" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag fill #F5F3FE ink #4D35C7</text>
 </g>
 <g id="11-gallery-card-character-annotated" transform="translate(752 2833)">
 <rect x="0" y="0" width="676" height="530" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
@@ -838,9 +838,9 @@
   <ellipse cx="90" cy="46" rx="26" ry="15" fill="#DFF7F0" fill-opacity="0.72"/>
   <circle cx="82" cy="43" r="18" fill="#DFF7F0" fill-opacity="0.62"/>
   <rect x="0" y="58" width="167" height="70" fill="url(#gallery-character-fade)"/>
-  <circle cx="28" cy="28" r="20" fill="#B1F2E4"/>
-  <circle cx="28" cy="28" r="19.5" stroke="#0B5B46" stroke-opacity="0.42"/>
-  <g transform="translate(16 16)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#0B5B46" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#0B5B46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <circle cx="24" cy="24" r="16" fill="#B1F2E4"/>
+  <circle cx="24" cy="24" r="15.5" stroke="#0B5B46" stroke-opacity="0.42"/>
+  <g transform="translate(12 12)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#0B5B46" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#0B5B46" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
   <circle cx="143" cy="24" r="16" fill="#FFFFFF" fill-opacity="0.84"/>
   <path d="M151.5 21.8c0 4.6-8.5 9.2-8.5 9.2s-8.5-4.6-8.5-9.2A4.5 4.5 0 0 1 143 19a4.5 4.5 0 0 1 8.5 2.8Z" stroke="#17151F" stroke-width="1.8" fill="none"/>
   <rect x="8" y="136" width="80" height="20" rx="10" fill="#E3FAF5" stroke="none" stroke-width="1" />
@@ -886,9 +886,9 @@
   <path d="M8 188L131 188" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
   <text x="69.5" y="182" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">123px</text>
 
-<path d="M8 44L8 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M48 44L48 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M8 52L48 52" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="28" y="46" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">40px</text>
+<path d="M8 44L8 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M40 44L40 60" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M8 52L40 52" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="24" y="46" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">32px</text>
 
 <path d="M127 36L127 52" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M159 36L159 52" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
   <path d="M127 44L159 44" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
@@ -905,7 +905,7 @@
   <text x="193" y="42" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="0" text-anchor="start">fill / color</text>
 
 </g>
-<rect x="20" y="336" width="292" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="354" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="362" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">character card 167x188 r8</text><text x="32" y="380" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">preview 167x128</text><text x="32" y="398" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body 167x60</text><text x="32" y="416" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body padding 8px</text><text x="32" y="434" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">media button 40x40</text><text x="32" y="452" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">favorite 32x32</text><text x="32" y="470" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag 80x20 r10</text><text x="32" y="488" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag fill #E3FAF5 ink #0B5B46</text>
+<rect x="20" y="336" width="292" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="354" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="362" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">character card 167x188 r8</text><text x="32" y="380" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">preview 167x128</text><text x="32" y="398" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body 167x60</text><text x="32" y="416" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body padding 8px</text><text x="32" y="434" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">media button 32x32</text><text x="32" y="452" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">favorite 32x32</text><text x="32" y="470" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag 80x20 r10</text><text x="32" y="488" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">tag fill #E3FAF5 ink #0B5B46</text>
 </g>
 <g id="12-campaign-card-annotated" transform="translate(32 3401)">
 <rect x="0" y="0" width="676" height="402" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />

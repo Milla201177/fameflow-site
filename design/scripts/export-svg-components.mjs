@@ -104,9 +104,9 @@ const galleryCard = ({ id, label, title, ink, accent, tagFill, thumbStops, portr
   <ellipse cx="90" cy="46" rx="26" ry="15" fill="${portrait}" fill-opacity="0.72"/>
   <circle cx="82" cy="43" r="18" fill="${portrait}" fill-opacity="0.62"/>
   <rect x="0" y="58" width="167" height="70" fill="url(#${id}-fade)"/>
-  <circle cx="28" cy="28" r="20" fill="${accent}"/>
-  <circle cx="28" cy="28" r="19.5" stroke="${ink}" stroke-opacity="0.42"/>
-  <g transform="translate(16 16)">${icon.image(0, 0, ink)}</g>
+  <circle cx="24" cy="24" r="16" fill="${accent}"/>
+  <circle cx="24" cy="24" r="15.5" stroke="${ink}" stroke-opacity="0.42"/>
+  <g transform="translate(12 12)">${icon.image(0, 0, ink)}</g>
   <circle cx="143" cy="24" r="16" fill="#FFFFFF" fill-opacity="0.84"/>
   <path d="M151.5 21.8c0 4.6-8.5 9.2-8.5 9.2s-8.5-4.6-8.5-9.2A4.5 4.5 0 0 1 143 19a4.5 4.5 0 0 1 8.5 2.8Z" stroke="#17151F" stroke-width="1.8" fill="none"/>
   ${rect(8, 136, label === "Celebrity" ? 74 : 80, 20, 10, tagFill)}
@@ -658,7 +658,7 @@ const spec = {
     ],
   },
   "11-gallery-card-celebrity": {
-    notes: ["celebrity card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 40x40", "favorite 32x32", "tag 74x20 r10", "tag fill #F5F3FE ink #4D35C7"],
+    notes: ["celebrity card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 32x32", "favorite 32x32", "tag 74x20 r10", "tag fill #F5F3FE ink #4D35C7"],
     arrows: [
       ["h", 0, 167, 216, "167px"],
       ["v", -22, 0, 188, "188px"],
@@ -667,12 +667,12 @@ const spec = {
       ["h", 0, 8, 200, "8px"],
       ["h", 8, 82, 164, "74px"],
       ["h", 8, 131, 188, "123px"],
-      ["h", 8, 48, 52, "40px"],
+      ["h", 8, 40, 52, "32px"],
       ["h", 127, 159, 44, "32px"],
     ],
   },
   "11-gallery-card-character": {
-    notes: ["character card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 40x40", "favorite 32x32", "tag 80x20 r10", "tag fill #E3FAF5 ink #0B5B46"],
+    notes: ["character card 167x188 r8", "preview 167x128", "body 167x60", "body padding 8px", "media button 32x32", "favorite 32x32", "tag 80x20 r10", "tag fill #E3FAF5 ink #0B5B46"],
     arrows: [
       ["h", 0, 167, 216, "167px"],
       ["v", -22, 0, 188, "188px"],
@@ -681,7 +681,7 @@ const spec = {
       ["h", 0, 8, 200, "8px"],
       ["h", 8, 88, 164, "80px"],
       ["h", 8, 131, 188, "123px"],
-      ["h", 8, 48, 52, "40px"],
+      ["h", 8, 40, 52, "32px"],
       ["h", 127, 159, 44, "32px"],
     ],
   },
