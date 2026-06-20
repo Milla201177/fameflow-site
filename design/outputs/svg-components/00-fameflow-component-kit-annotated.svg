@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1480" height="6174" viewBox="0 0 1480 6174" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1480" height="6373" viewBox="0 0 1480 6373" fill="none" xmlns="http://www.w3.org/2000/svg">
 <title>FameFlow component</title>
 <defs>
   <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB">
@@ -276,56 +276,91 @@
 <rect x="20" y="206" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="224" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="232" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">outer r29</text><text x="32" y="250" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="268" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 5px</text><text x="32" y="286" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active tab 108x48 r24</text><text x="32" y="304" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">top indicator 76x4 r2</text><text x="32" y="322" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active fill #F6F4FE</text>
 </g>
 <g id="05-prompt-composer-annotated" transform="translate(32 990)">
-<rect x="0" y="0" width="676" height="424" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
+<rect x="0" y="0" width="676" height="623" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">05-prompt-composer</text>
-<text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 164px</text>
+<text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 363px</text>
 <g transform="translate(36 72)">
-<rect x="-1" y="-1" width="344" height="166" rx="0" fill="transparent" stroke="#EF4444" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-1" y="-1" width="344" height="365" rx="0" fill="transparent" stroke="#EF4444" stroke-width="1" stroke-dasharray="6 4"/>
 
-      <rect x="0" y="0" width="342" height="116" rx="24" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" />
-      <rect x="16" y="20" width="40" height="40" rx="20" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><g transform="translate(24 28)"><path d="M12 5L12 19" stroke="#1E1E24" stroke-width="2" stroke-linecap="round"/><path d="M5 12L19 12" stroke="#1E1E24" stroke-width="2" stroke-linecap="round"/></g>
-      <text x="72" y="42" fill="#A8A8B3" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0" text-anchor="start">Enter a text prompt</text>
-      <text x="72" y="68" fill="#A8A8B3" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" letter-spacing="0" text-anchor="start">or reference image</text>
-      <rect x="286" y="60" width="40" height="40" rx="20" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" /><g transform="translate(294 68)"><path d="M12 4v7a4 4 0 0 1-8 0V4a4 4 0 0 1 8 0Z" stroke="#1E1E24" stroke-width="1.8"/><path d="M2 11a8 8 0 0 0 16 0M10 19v3M6 22h8" stroke="#1E1E24" stroke-width="1.8" stroke-linecap="round"/></g>
-      <rect x="0" y="128" width="174" height="36" rx="18" fill="#F7F4FF" stroke="#E8E6F2" stroke-width="1" />
-      <g transform="translate(14 134)"><path d="M12 3 14.4 9.1 21 9.4l-5.1 4.1 1.7 6.5-5.6-3.6L6.4 20l1.7-6.5L3 9.4l6.6-.3L12 3Z" stroke="#8F7CF6" stroke-width="1.8" stroke-linejoin="round"/></g>
-      <text x="44" y="151" fill="#8F7CF6" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="0" text-anchor="start">Enhance prompt</text>
+      <rect x="0" y="0" width="342" height="363" rx="24" fill="#FFFFFF" stroke="#E8E6F2" stroke-width="1" filter="url(#shadow)"/>
+      <g transform="translate(16 16)">
+        <g>
+          <path d="M21.4 11.6 12.3 20.7a5 5 0 0 1-7.1-7.1l9.2-9.2a3.2 3.2 0 1 1 4.5 4.5l-9.3 9.3a1.5 1.5 0 0 1-2.1-2.1l8.6-8.6" stroke="#6F6F7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="40" y="31" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="0" text-anchor="start">Enter a text prompt or</text>
+        <text x="40" y="57" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="0" text-anchor="start">reference image</text>
+        <g transform="translate(276 0)">
+          <path d="M16 4a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V7a3 3 0 0 0-3-3Z" stroke="#6F6F7A" stroke-width="1.8"/>
+          <path d="M23 12a7 7 0 0 1-14 0M16 19v3" stroke="#6F6F7A" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+      <rect x="16" y="234" width="174" height="48" rx="16" fill="#F6F4FE" stroke="rgba(219,212,250,0.78)" stroke-width="1" filter="url(#shadow)"/>
+      <g transform="translate(28 246)"><path d="M12 3 14 9l6 2-6 2-2 6-2-6-6-2 6-2 2-6Z" stroke="#1E1E24" stroke-width="1.8" stroke-linejoin="round"/></g>
+      <text x="66" y="264" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="0" text-anchor="start">Enhance prompt</text>
+      <rect x="16" y="298" width="150" height="48" rx="16" fill="#FFFFFF" stroke="rgba(219,212,250,0.78)" stroke-width="1" filter="url(#shadow)"/>
+      <text x="32" y="326" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">Model</text>
+      <text x="104" y="326" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" text-anchor="start">Fast</text>
+      <g transform="translate(134 310) rotate(90 12 12)"><path d="m8 5 6 7-6 7" stroke="#1E1E24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <rect x="174" y="298" width="150" height="48" rx="16" fill="#FFFFFF" stroke="rgba(219,212,250,0.78)" stroke-width="1" filter="url(#shadow)"/>
+      <text x="190" y="326" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="start">Size</text>
+      <text x="260" y="326" fill="#1E1E24" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0" text-anchor="start">9:16</text>
+      <g transform="translate(292 310) rotate(90 12 12)"><path d="m8 5 6 7-6 7" stroke="#1E1E24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
     
-<path d="M0 184L0 200" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M342 184L342 200" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 192L342 192" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="171" y="186" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">342px</text>
+<path d="M0 383L0 399" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M342 383L342 399" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M0 391L342 391" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="171" y="385" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">342px</text>
 
-<path d="M-26 0L-10 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-26 164L-10 164" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M-18 0L-18 164" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="-18" y="76" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">164px</text>
+<path d="M-26 0L-10 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-26 363L-10 363" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M-18 0L-18 363" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="-18" y="175.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">363px</text>
 
-<path d="M0 184L0 200" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M342 184L342 200" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 192L342 192" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="171" y="186" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">342px</text>
+<path d="M0 383L0 399" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M342 383L342 399" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M0 391L342 391" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="171" y="385" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">342px</text>
 
-<path d="M-30 0L-14 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-30 116L-14 116" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M-22 0L-22 116" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="-22" y="52" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">116px</text>
+<path d="M-30 0L-14 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-30 363L-14 363" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M-22 0L-22 363" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="-22" y="175.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">363px</text>
 
-<path d="M0 114L0 130" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M16 114L16 130" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 122L16 122" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="8" y="116" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">16px</text>
+<path d="M0 367L0 383" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M16 367L16 383" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M0 375L16 375" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="8" y="369" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">16px</text>
 
-<path d="M16 120L16 136" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M56 120L56 136" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M16 128L56 128" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="36" y="122" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">40px</text>
+<path d="M16 374L16 390" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M324 374L324 390" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M16 382L324 382" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="170" y="376" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">308px</text>
 
-<path d="M56 114L56 130" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M72 114L72 130" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M56 122L72 122" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="64" y="116" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">16px gap</text>
+<path d="M346 16L362 16" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M346 217L362 217" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M354 16L354 217" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="354" y="110.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">201px</text>
 
-<path d="M346 116L362 116" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M346 128L362 128" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M354 116L354 128" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="354" y="116" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">12px</text>
+<path d="M358 217L374 217" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M358 234L374 234" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M366 217L366 234" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="366" y="219.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">17px</text>
 
-<path d="M0 168L0 184" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M174 168L174 184" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 176L174 176" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="87" y="170" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">174px</text>
+<path d="M16 284L16 300" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M190 284L190 300" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M16 292L190 292" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="103" y="286" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">174px</text>
+
+<path d="M346 234L362 234" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M346 282L362 282" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M354 234L354 282" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="354" y="252" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">48px</text>
+
+<path d="M358 282L374 282" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M358 298L374 298" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M366 282L366 298" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="366" y="284" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">16px</text>
+
+<path d="M16 348L16 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M166 348L166 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M16 356L166 356" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="91" y="350" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">150px</text>
+
+<path d="M166 348L166 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M174 348L174 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M166 356L174 356" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="170" y="350" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">8px</text>
+
+<path d="M174 348L174 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M324 348L324 364" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M174 356L324 356" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="249" y="350" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">150px</text>
 
 
   <path d="M368 18L340 8" stroke="#2563EB" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
@@ -338,7 +373,7 @@
   <text x="368" y="42" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="0" text-anchor="start">fill / color</text>
 
 </g>
-<rect x="20" y="312" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="330" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="338" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">textarea card 342x116 r24</text><text x="32" y="356" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="374" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">icon buttons 40px r20</text><text x="32" y="392" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">left icon x16 y20</text><text x="32" y="410" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">enhance chip 174x36 r18</text><text x="32" y="428" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">vertical gap 12px</text>
+<rect x="20" y="511" width="292" height="152" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="529" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="537" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">outer card 342x363 r24</text><text x="32" y="555" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="573" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 16px</text><text x="32" y="591" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">prompt row 308x201</text><text x="32" y="609" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">enhance 174x48 r16</text><text x="32" y="627" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">settings gap 8px</text><text x="32" y="645" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">selects 150x48 r16</text>
 </g>
 <g id="06-select-controls-annotated" transform="translate(752 990)">
 <rect x="0" y="0" width="676" height="330" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
@@ -397,7 +432,7 @@
 </g>
 <rect x="20" y="212" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="230" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="238" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">each select 162x64 r18</text><text x="32" y="256" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="274" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">gap 18px</text><text x="32" y="292" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">label x18</text><text x="32" y="310" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">value baseline y48</text>
 </g>
-<g id="07-primary-buttons-annotated" transform="translate(32 1452)">
+<g id="07-primary-buttons-annotated" transform="translate(32 1651)">
 <rect x="0" y="0" width="676" height="396" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">07-primary-buttons</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 136px</text>
@@ -456,7 +491,7 @@
 </g>
 <rect x="20" y="284" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="302" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="310" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">primary 342x48 r16</text><text x="32" y="328" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">fill #8F7CF6</text><text x="32" y="346" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">secondary 164x48 r16</text><text x="32" y="364" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">gap 14px</text><text x="32" y="382" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">mint fill #C6FCE4</text>
 </g>
-<g id="08-copilot-card-annotated" transform="translate(752 1452)">
+<g id="08-copilot-card-annotated" transform="translate(752 1651)">
 <rect x="0" y="0" width="676" height="392" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">08-copilot-card</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 172 x 132px</text>
@@ -510,7 +545,7 @@
 </g>
 <rect x="20" y="280" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="298" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="306" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card 172x132 r20</text><text x="32" y="324" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="342" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 16px</text><text x="32" y="360" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">icon tile 42x42 r14</text><text x="32" y="378" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">text y84 / y108</text>
 </g>
-<g id="09-quick-chips-annotated" transform="translate(32 1886)">
+<g id="09-quick-chips-annotated" transform="translate(32 2085)">
 <rect x="0" y="0" width="676" height="364" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">09-quick-chips</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 104px</text>
@@ -567,7 +602,7 @@
 </g>
 <rect x="20" y="252" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="270" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="278" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">chip h36 r18</text><text x="32" y="296" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active fill #8F7CF6</text><text x="32" y="314" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">chip gap 8px</text><text x="32" y="332" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">mint active #67D7AA</text><text x="32" y="350" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">label row gap 14px</text>
 </g>
-<g id="10-gallery-filters-annotated" transform="translate(752 1886)">
+<g id="10-gallery-filters-annotated" transform="translate(752 2085)">
 <rect x="0" y="0" width="676" height="364" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">10-gallery-filters</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 104px</text>
@@ -630,7 +665,7 @@
 </g>
 <rect x="20" y="252" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="270" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="278" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">top chips h36 r18</text><text x="32" y="296" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">chip gaps 8px</text><text x="32" y="314" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">filter controls 162x48 r16</text><text x="32" y="332" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">row gap 18px</text><text x="32" y="350" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text>
 </g>
-<g id="11-gallery-card-annotated" transform="translate(32 2288)">
+<g id="11-gallery-card-annotated" transform="translate(32 2487)">
 <rect x="0" y="0" width="676" height="496" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">11-gallery-card</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 162 x 236px</text>
@@ -691,7 +726,7 @@
 </g>
 <rect x="20" y="384" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="402" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="410" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card 162x236 r20</text><text x="32" y="428" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="446" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">outer padding 10px</text><text x="32" y="464" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">preview 142x142 r16</text><text x="32" y="482" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">body starts y178</text><text x="32" y="500" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">menu dots x136</text>
 </g>
-<g id="12-campaign-card-annotated" transform="translate(752 2288)">
+<g id="12-campaign-card-annotated" transform="translate(752 2487)">
 <rect x="0" y="0" width="676" height="356" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">12-campaign-card</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 96px</text>
@@ -750,7 +785,7 @@
 </g>
 <rect x="20" y="244" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="262" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="270" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card 342x96 r20</text><text x="32" y="288" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="306" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 16px</text><text x="32" y="324" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">thumb 64x64 r16</text><text x="32" y="342" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">copy x96</text><text x="32" y="360" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">status 66x32 r16</text>
 </g>
-<g id="13-field-card-annotated" transform="translate(32 2822)">
+<g id="13-field-card-annotated" transform="translate(32 3021)">
 <rect x="0" y="0" width="676" height="342" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">13-field-card</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 82px</text>
@@ -794,7 +829,7 @@
 </g>
 <rect x="20" y="230" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="248" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="256" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">field 342x82 r18</text><text x="32" y="274" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="292" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">content padding x18</text><text x="32" y="310" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">label y27</text><text x="32" y="328" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">value y57</text>
 </g>
-<g id="14-stepper-annotated" transform="translate(752 2822)">
+<g id="14-stepper-annotated" transform="translate(752 3021)">
 <rect x="0" y="0" width="676" height="330" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">14-stepper</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 182 x 36px</text>
@@ -843,7 +878,7 @@
 </g>
 <rect x="20" y="184" width="292" height="98" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="202" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="210" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">circle r16 / 32px</text><text x="32" y="228" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">connector stroke 3 #E8E6F2</text><text x="32" y="246" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">centers 18 / 91 / 164</text><text x="32" y="264" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">center gap 73px</text>
 </g>
-<g id="15-influencer-row-annotated" transform="translate(32 3202)">
+<g id="15-influencer-row-annotated" transform="translate(32 3401)">
 <rect x="0" y="0" width="676" height="344" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">15-influencer-row</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 84px</text>
@@ -898,7 +933,7 @@
 </g>
 <rect x="20" y="232" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="250" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="258" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">row 342x84 r20</text><text x="32" y="276" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 16px</text><text x="32" y="294" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">avatar r25 / 50px</text><text x="32" y="312" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">copy x82</text><text x="32" y="330" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">button 54x32 r16</text>
 </g>
-<g id="16-bottom-nav-annotated" transform="translate(752 3202)">
+<g id="16-bottom-nav-annotated" transform="translate(752 3401)">
 <rect x="0" y="0" width="676" height="348" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">16-bottom-nav</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 390 x 88px</text>
@@ -953,7 +988,7 @@
 </g>
 <rect x="20" y="236" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="254" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="262" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">bar 390x88</text><text x="32" y="280" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active item 82x56 r18</text><text x="32" y="298" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">left padding 22px</text><text x="32" y="316" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">nav spacing 36px approx</text><text x="32" y="334" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">bg rgba #FAFAFC 96%</text>
 </g>
-<g id="17-bottom-sheet-annotated" transform="translate(32 3588)">
+<g id="17-bottom-sheet-annotated" transform="translate(32 3787)">
 <rect x="0" y="0" width="676" height="548" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">17-bottom-sheet</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 390 x 288px</text>
@@ -1015,7 +1050,7 @@
 </g>
 <rect x="20" y="436" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="454" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="462" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">sheet 390x288 r24</text><text x="32" y="480" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="498" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding x24</text><text x="32" y="516" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">handle 60x5 r3</text><text x="32" y="534" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">row 342x64 r18</text><text x="32" y="552" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">CTA 342x48 r16</text>
 </g>
-<g id="18-side-menu-annotated" transform="translate(752 3588)">
+<g id="18-side-menu-annotated" transform="translate(752 3787)">
 <rect x="0" y="0" width="676" height="880" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">18-side-menu</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 318 x 620px</text>
@@ -1080,7 +1115,7 @@
 </g>
 <rect x="20" y="768" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="786" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="794" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">panel 318x620</text><text x="32" y="812" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">main padding 24px</text><text x="32" y="830" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">cards width 270px</text><text x="32" y="848" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">menu rows 52px r16</text><text x="32" y="866" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card gaps 8px / 12px</text>
 </g>
-<g id="19-toast-annotated" transform="translate(32 4506)">
+<g id="19-toast-annotated" transform="translate(32 4705)">
 <rect x="0" y="0" width="676" height="330" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">19-toast</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 300 x 56px</text>
@@ -1119,7 +1154,7 @@
 </g>
 <rect x="20" y="204" width="292" height="98" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="222" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="230" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">toast 300x56 r18</text><text x="32" y="248" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">fill #1E1E24</text><text x="32" y="266" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">text #FFFFFF</text><text x="32" y="284" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">center aligned</text>
 </g>
-<g id="20-empty-state-annotated" transform="translate(752 4506)">
+<g id="20-empty-state-annotated" transform="translate(752 4705)">
 <rect x="0" y="0" width="676" height="520" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">20-empty-state</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 260px</text>
@@ -1175,7 +1210,7 @@
 </g>
 <rect x="20" y="408" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="426" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="434" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card 342x260 r24</text><text x="32" y="452" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="470" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">orb r42</text><text x="32" y="488" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">CTA 234x48 r16</text><text x="32" y="506" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">CTA x54 y196</text>
 </g>
-<g id="21-dialog-annotated" transform="translate(32 5064)">
+<g id="21-dialog-annotated" transform="translate(32 5263)">
 <rect x="0" y="0" width="676" height="498" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">21-dialog</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 238px</text>
@@ -1238,7 +1273,7 @@
 </g>
 <rect x="20" y="386" width="292" height="134" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="404" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="412" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">dialog 342x238 r24</text><text x="32" y="430" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text><text x="32" y="448" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 24px</text><text x="32" y="466" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">chips 86x36 r18</text><text x="32" y="484" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">actions 138x48 r16</text><text x="32" y="502" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">gap 18px</text>
 </g>
-<g id="22-offline-card-annotated" transform="translate(752 5064)">
+<g id="22-offline-card-annotated" transform="translate(752 5263)">
 <rect x="0" y="0" width="676" height="510" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">22-offline-card</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 250px</text>
@@ -1294,7 +1329,7 @@
 </g>
 <rect x="20" y="398" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="416" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="424" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">card 342x250 r24</text><text x="32" y="442" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">logo tile 78x78 r22</text><text x="32" y="460" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">cube 24x24 r6</text><text x="32" y="478" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">CTA 234x48 r16</text><text x="32" y="496" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text>
 </g>
-<g id="23-source-menu-annotated" transform="translate(32 5612)">
+<g id="23-source-menu-annotated" transform="translate(32 5811)">
 <rect x="0" y="0" width="676" height="498" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">23-source-menu</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 238px</text>
@@ -1352,7 +1387,7 @@
 </g>
 <rect x="20" y="386" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="404" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="412" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">sheet 342x238 r24</text><text x="32" y="430" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 24px</text><text x="32" y="448" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">options 294x48 r16</text><text x="32" y="466" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">row gap 8px</text><text x="32" y="484" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">stroke 1 #E8E6F2</text>
 </g>
-<g id="24-project-option-annotated" transform="translate(752 5612)">
+<g id="24-project-option-annotated" transform="translate(752 5811)">
 <rect x="0" y="0" width="676" height="330" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">24-project-option</text>
 <text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 342 x 68px</text>

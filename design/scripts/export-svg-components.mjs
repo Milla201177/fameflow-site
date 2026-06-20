@@ -151,16 +151,31 @@ const components = [
   {
     name: "05-prompt-composer",
     width: 342,
-    height: 164,
+    height: 363,
     body: `
-      ${rect(0, 0, 342, 116, 24, colors.surface, colors.border)}
-      ${roundButton(16, 20, icon.plus)}
-      ${text(72, 42, "Enter a text prompt", 16, 500, colors.disabled)}
-      ${text(72, 68, "or reference image", 16, 500, colors.disabled)}
-      ${roundButton(286, 60, (x,y,c=colors.text)=>`<path d="M12 4v7a4 4 0 0 1-8 0V4a4 4 0 0 1 8 0Z" stroke="${c}" stroke-width="1.8"/><path d="M2 11a8 8 0 0 0 16 0M10 19v3M6 22h8" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>`)}
-      ${rect(0, 128, 174, 36, 18, colors.soft, colors.border)}
-      <g transform="translate(14 134)">${icon.sparkle(0, 0, colors.primary)}</g>
-      ${text(44, 151, "Enhance prompt", 13, 700, colors.primary)}
+      ${rect(0, 0, 342, 363, 24, colors.surface, colors.border, 1, 'filter="url(#shadow)"')}
+      <g transform="translate(16 16)">
+        <g>
+          <path d="M21.4 11.6 12.3 20.7a5 5 0 0 1-7.1-7.1l9.2-9.2a3.2 3.2 0 1 1 4.5 4.5l-9.3 9.3a1.5 1.5 0 0 1-2.1-2.1l8.6-8.6" stroke="${colors.muted}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        ${text(40, 31, "Enter a text prompt or", 17, 500, colors.muted)}
+        ${text(40, 57, "reference image", 17, 500, colors.muted)}
+        <g transform="translate(276 0)">
+          <path d="M16 4a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V7a3 3 0 0 0-3-3Z" stroke="${colors.muted}" stroke-width="1.8"/>
+          <path d="M23 12a7 7 0 0 1-14 0M16 19v3" stroke="${colors.muted}" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+      ${rect(16, 234, 174, 48, 16, colors.brandSoft, "rgba(219,212,250,0.78)", 1, 'filter="url(#shadow)"')}
+      <g transform="translate(28 246)"><path d="M12 3 14 9l6 2-6 2-2 6-2-6-6-2 6-2 2-6Z" stroke="${colors.text}" stroke-width="1.8" stroke-linejoin="round"/></g>
+      ${text(66, 264, "Enhance prompt", 14, 600, colors.text)}
+      ${rect(16, 298, 150, 48, 16, colors.surface, "rgba(219,212,250,0.78)", 1, 'filter="url(#shadow)"')}
+      ${text(32, 326, "Model", 14, 400, colors.muted)}
+      ${text(104, 326, "Fast", 14, 700, colors.text)}
+      <g transform="translate(134 310) rotate(90 12 12)">${icon.chevron(0, 0, colors.text)}</g>
+      ${rect(174, 298, 150, 48, 16, colors.surface, "rgba(219,212,250,0.78)", 1, 'filter="url(#shadow)"')}
+      ${text(190, 326, "Size", 14, 400, colors.muted)}
+      ${text(260, 326, "9:16", 14, 700, colors.text)}
+      <g transform="translate(292 310) rotate(90 12 12)">${icon.chevron(0, 0, colors.text)}</g>
     `,
   },
   {
@@ -508,15 +523,20 @@ const spec = {
     ],
   },
   "05-prompt-composer": {
-    notes: ["textarea card 342x116 r24", "stroke 1 #E8E6F2", "icon buttons 40px r20", "left icon x16 y20", "enhance chip 174x36 r18", "vertical gap 12px"],
+    notes: ["outer card 342x363 r24", "stroke 1 #E8E6F2", "padding 16px", "prompt row 308x201", "enhance 174x48 r16", "settings gap 8px", "selects 150x48 r16"],
     arrows: [
-      ["h", 0, 342, 192, "342px"],
-      ["v", -22, 0, 116, "116px"],
-      ["h", 0, 16, 122, "16px"],
-      ["h", 16, 56, 128, "40px"],
-      ["h", 56, 72, 122, "16px gap"],
-      ["v", 354, 116, 128, "12px"],
-      ["h", 0, 174, 176, "174px"],
+      ["h", 0, 342, 391, "342px"],
+      ["v", -22, 0, 363, "363px"],
+      ["h", 0, 16, 375, "16px"],
+      ["h", 16, 324, 382, "308px"],
+      ["v", 354, 16, 217, "201px"],
+      ["v", 366, 217, 234, "17px"],
+      ["h", 16, 190, 292, "174px"],
+      ["v", 354, 234, 282, "48px"],
+      ["v", 366, 282, 298, "16px"],
+      ["h", 16, 166, 356, "150px"],
+      ["h", 166, 174, 356, "8px"],
+      ["h", 174, 324, 356, "150px"],
     ],
   },
   "06-select-controls": {
