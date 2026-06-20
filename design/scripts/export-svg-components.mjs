@@ -66,6 +66,7 @@ const icon = {
   sparkle: (x, y, c = colors.text) => `<path d="M${x + 12} ${y + 3} ${x + 14.4} ${y + 9.1} ${x + 21} ${y + 9.4}l-5.1 4.1 1.7 6.5-5.6-3.6L${x + 6.4} ${y + 20}l1.7-6.5L${x + 3} ${y + 9.4}l6.6-.3L${x + 12} ${y + 3}Z" stroke="${c}" stroke-width="1.8" stroke-linejoin="round"/>`,
   user: (x, y, c = colors.text) => `<circle cx="${x + 12}" cy="${y + 8}" r="4" stroke="${c}" stroke-width="1.8"/><path d="M${x + 5} ${y + 21}c1.4-4 4-6 7-6s5.6 2 7 6" stroke="${c}" stroke-width="1.8" stroke-linecap="round"/>`,
   image: (x, y, c = colors.text) => `<rect x="${x + 4}" y="${y + 5}" width="16" height="14" rx="2" stroke="${c}" stroke-width="1.8"/><path d="m${x + 7} ${y + 16} 4-4 3 3 2-2 1 3" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>`,
+  grid: (x, y, c = colors.text) => `<rect x="${x + 4}" y="${y + 4}" width="6" height="6" rx="1" stroke="${c}" stroke-width="1.8"/><rect x="${x + 14}" y="${y + 4}" width="6" height="6" rx="1" stroke="${c}" stroke-width="1.8"/><rect x="${x + 4}" y="${y + 14}" width="6" height="6" rx="1" stroke="${c}" stroke-width="1.8"/><rect x="${x + 14}" y="${y + 14}" width="6" height="6" rx="1" stroke="${c}" stroke-width="1.8"/>`,
   video: (x, y, c = colors.text) => `<rect x="${x + 4}" y="${y + 7}" width="12" height="10" rx="2" stroke="${c}" stroke-width="1.8"/><circle cx="${x + 10}" cy="${y + 12}" r="2" stroke="${c}" stroke-width="1.8"/><path d="m${x + 16} ${y + 10} 4-2v8l-4-2" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>`,
   audio: (x, y, c = colors.text) => `<path d="M${x + 9} ${y + 18}V${y + 5}l11-2v13" stroke="${c}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${x + 6}" cy="${y + 18}" r="3" stroke="${c}" stroke-width="1.8"/><circle cx="${x + 17}" cy="${y + 16}" r="3" stroke="${c}" stroke-width="1.8"/>`,
   chevron: (x, y, c = colors.muted) => `<path d="m${x + 8} ${y + 5} 6 7-6 7" stroke="${c}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`,
@@ -246,18 +247,20 @@ const components = [
   {
     name: "10-gallery-filters",
     width: 342,
-    height: 104,
+    height: 120,
     body: `
-      ${chip(0, 0, "All", true, 58)}
-      ${chip(66, 0, "Celebrity", false, 96)}
-      ${chip(170, 0, "Character", false, 100)}
-      ${chip(278, 0, "Favs", false, 64)}
-      ${rect(0, 56, 162, 48, 16, colors.surface, colors.border)}
-      <g transform="translate(16 68)">${icon.user(0, 0, colors.muted)}</g>${text(50, 86, "Subject", 14, 700)}
-      <g transform="translate(130 68) rotate(90 12 12)">${icon.chevron(0, 0)}</g>
-      ${rect(180, 56, 162, 48, 16, colors.surface, colors.border)}
-      <g transform="translate(196 68)">${icon.image(0, 0, colors.muted)}</g>${text(230, 86, "Media", 14, 700)}
-      <g transform="translate(310 68) rotate(90 12 12)">${icon.chevron(0, 0)}</g>
+      ${rect(0, 0, 342, 48, 24, colors.surface, colors.border, 1, 'filter="url(#shadow)"')}
+      ${rect(4, 4, 80.5, 40, 20, colors.brand)}
+      ${text(44.25, 29, "All", 14, 400, "#2D235F", "middle")}
+      ${text(128.75, 29, "Celebrity", 14, 400, colors.text, "middle")}
+      ${text(213.25, 29, "Character", 14, 400, colors.text, "middle")}
+      ${text(297.75, 29, "Favorites", 14, 400, colors.text, "middle")}
+      ${rect(0, 64, 167, 56, 28, colors.brandSoft, "rgba(219,212,250,0.76)", 1, 'filter="url(#shadow)"')}
+      <g transform="translate(16 80)">${icon.user(0, 0, colors.text)}</g>${text(49, 99, "All subje...", 14, 400)}
+      <g transform="translate(127 80) rotate(90 12 12)">${icon.chevron(0, 0, colors.text)}</g>
+      ${rect(175, 64, 167, 56, 28, colors.brandSoft, "rgba(219,212,250,0.76)", 1, 'filter="url(#shadow)"')}
+      <g transform="translate(191 80)">${icon.grid(0, 0, colors.text)}</g>${text(224, 99, "All media", 14, 400)}
+      <g transform="translate(302 80) rotate(90 12 12)">${icon.chevron(0, 0, colors.text)}</g>
     `,
   },
   {
@@ -599,14 +602,17 @@ const spec = {
     ],
   },
   "10-gallery-filters": {
-    notes: ["top chips h36 r18", "chip gaps 8px", "filter controls 162x48 r16", "row gap 18px", "stroke 1 #E8E6F2"],
+    notes: ["mode control 342x48 r24", "mode padding 4px", "4 equal tabs 80.5x40", "active fill #DBD4FA", "row gap 16px", "filter buttons 167x56 r28", "filter gap 8px", "fill #F6F4FE stroke rgba(219,212,250,.76)"],
     arrows: [
-      ["h", 0, 58, 44, "58px"],
-      ["h", 58, 66, 44, "8px"],
-      ["v", 354, 0, 36, "36px"],
-      ["h", 0, 162, 132, "162px"],
-      ["h", 162, 180, 132, "18px"],
-      ["v", -22, 56, 104, "48px"],
+      ["h", 0, 342, 144, "342px"],
+      ["v", -22, 0, 48, "48px"],
+      ["h", 0, 4, 56, "4px"],
+      ["h", 4, 84.5, 58, "80.5px"],
+      ["h", 84.5, 88.5, 58, "4px"],
+      ["v", 354, 48, 64, "16px"],
+      ["h", 0, 167, 152, "167px"],
+      ["h", 167, 175, 152, "8px"],
+      ["v", -22, 64, 120, "56px"],
     ],
   },
   "11-gallery-card": {
