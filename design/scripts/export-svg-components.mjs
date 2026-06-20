@@ -221,16 +221,26 @@ const components = [
   {
     name: "09-quick-chips",
     width: 342,
-    height: 104,
+    height: 192,
     body: `
-      ${text(0, 18, "Format", 14, 700)}
-      ${chip(0, 32, "Image", true, 92)}
-      ${chip(100, 32, "Video", false, 92)}
-      ${chip(200, 32, "Audio", false, 92)}
-      ${text(0, 88, "Size", 14, 700)}
-      ${chip(52, 72, "9:16", true, 74, colors.green)}
-      ${chip(134, 72, "1:1", false, 64)}
-      ${chip(206, 72, "16:9", false, 74)}
+      ${rect(0, 0, 342, 192, 8, colors.surface, colors.border, 1, 'filter="url(#shadow)"')}
+      ${text(16, 40, "A few quick questions", 24, 600, colors.text)}
+      ${text(16, 91, "Format", 14, 400, colors.text)}
+      ${rect(88, 62, 236, 48, 24, colors.surface, "none", 1, 'filter="url(#shadow)"')}
+      ${rect(92, 66, 73.33, 40, 20, colors.brand)}
+      <circle cx="110" cy="74" r="2" fill="#2D235F" fill-opacity="0.16"/>
+      <circle cx="150" cy="94" r="2" fill="#2D235F" fill-opacity="0.12"/>
+      ${text(128.5, 91, "Image", 14, 400, "#2D235F", "middle")}
+      ${text(206, 91, "Video", 14, 400, colors.text, "middle")}
+      ${text(282, 91, "Audio", 14, 400, colors.text, "middle")}
+      ${text(16, 155, "Size", 14, 400, colors.text)}
+      ${rect(88, 126, 236, 48, 24, colors.surface, "none", 1, 'filter="url(#shadow)"')}
+      ${rect(92, 130, 73.33, 40, 20, colors.brand)}
+      <circle cx="110" cy="138" r="2" fill="#2D235F" fill-opacity="0.16"/>
+      <circle cx="150" cy="158" r="2" fill="#2D235F" fill-opacity="0.12"/>
+      ${text(128.5, 155, "9:16", 14, 400, "#2D235F", "middle")}
+      ${text(206, 155, "1:1", 14, 400, colors.text, "middle")}
+      ${text(282, 155, "16:9", 14, 400, colors.text, "middle")}
     `,
   },
   {
@@ -571,13 +581,21 @@ const spec = {
     ],
   },
   "09-quick-chips": {
-    notes: ["chip h36 r18", "active fill #8F7CF6", "chip gap 8px", "mint active #67D7AA", "label row gap 14px"],
+    notes: ["quick panel 342x192 r8", "padding 16px", "heading 24/30 semibold", "row 308x48", "label column 64px", "row gap 8px", "options 236x48 r24", "chip 73x40 r20"],
     arrows: [
-      ["h", 0, 92, 60, "92px"],
-      ["h", 92, 100, 60, "8px"],
-      ["v", 354, 32, 68, "36px"],
-      ["h", 52, 126, 116, "74px"],
-      ["h", 126, 134, 116, "8px"],
+      ["h", 0, 342, 220, "342px"],
+      ["v", -22, 0, 192, "192px"],
+      ["h", 0, 16, 204, "16px"],
+      ["h", 16, 324, 214, "308px"],
+      ["v", 354, 16, 46, "30px"],
+      ["v", 366, 46, 62, "16px"],
+      ["h", 16, 80, 116, "64px"],
+      ["h", 80, 88, 116, "8px"],
+      ["h", 88, 324, 118, "236px"],
+      ["v", 354, 62, 110, "48px"],
+      ["h", 92, 165.33, 106, "73px"],
+      ["h", 165.33, 169.33, 106, "4px"],
+      ["v", 366, 110, 126, "16px"],
     ],
   },
   "10-gallery-filters": {
@@ -817,10 +835,11 @@ components.forEach((component, index) => {
   }
 
   const cardW = 676;
-  const cardH = Math.max(component.height + 260, 330);
   const localX = 36;
   const localY = 72;
   const componentSpec = spec[component.name] || { notes: [`component ${component.width}x${component.height}px`], arrows: [] };
+  const notesH = 26 + componentSpec.notes.length * 18;
+  const cardH = Math.max(component.height + 260, localY + component.height + 76 + notesH + 24, 330);
 
   annotatedParts.push(`<g id="${component.name}-annotated" transform="translate(${annotatedX} ${annotatedY})">`);
   annotatedParts.push(rect(0, 0, cardW, cardH, 18, "#FFFFFF", "#DEDBE8"));
