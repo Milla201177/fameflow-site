@@ -374,14 +374,22 @@ const components = [
   {
     name: "16-bottom-nav",
     width: 390,
-    height: 88,
+    height: 81,
     body: `
-      ${rect(0, 0, 390, 88, 0, "rgba(250,250,252,0.96)")}
-      ${rect(22, 12, 82, 56, 18, colors.brand)}
-      <g transform="translate(51 19)">${icon.sparkle(0, 0, "#2D235F")}</g>${text(63, 58, "Create", 11, 700, "#2D235F", "middle")}
-      <g transform="translate(137 19)">${icon.image(0, 0, colors.muted)}</g>${text(149, 58, "Gallery", 11, 600, colors.muted, "middle")}
-      <g transform="translate(226 19)">${icon.user(0, 0, colors.muted)}</g>${text(238, 58, "Co-Pilot", 11, 600, colors.muted, "middle")}
-      <g transform="translate(316 19)">${icon.menu(0, 0, colors.muted)}</g>${text(328, 58, "Menu", 11, 600, colors.muted, "middle")}
+      ${rect(0, 0, 390, 81, 0, "rgba(250,250,252,0.94)")}
+      <path d="M0 0.5H390" stroke="${colors.border}" stroke-width="1"/>
+      ${rect(24, 9, 111.33, 64, 16, "rgba(219,212,250,0.28)")}
+      ${rect(40, 9, 79.33, 4, 2, colors.brand)}
+      <g transform="translate(67.67 17)">
+        <rect x="6" y="8" width="12" height="9" rx="4" stroke="#2D235F" stroke-width="1.8"/>
+        <path d="M12 8V5M9 5h6M4 12h2M18 12h2" stroke="#2D235F" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="10" cy="12.5" r=".8" fill="#2D235F"/><circle cx="14" cy="12.5" r=".8" fill="#2D235F"/>
+      </g>
+      ${text(79.67, 61, "Co-Pilot", 14, 400, "#2D235F", "middle")}
+      <g transform="translate(183 17)">${icon.sparkle(0, 0, colors.muted)}</g>
+      ${text(195, 61, "Generate", 14, 400, colors.muted, "middle")}
+      <g transform="translate(298.33 17)">${icon.grid(0, 0, colors.muted)}</g>
+      ${text(310.33, 61, "Gallery", 14, 400, colors.muted, "middle")}
     `,
   },
   {
@@ -724,13 +732,16 @@ const spec = {
     ],
   },
   "16-bottom-nav": {
-    notes: ["bar 390x88", "active item 82x56 r18", "left padding 22px", "nav spacing 36px approx", "bg rgba #FAFAFC 96%"],
+    notes: ["bar 390x81", "padding 8px 24px", "nav 342x64", "3 equal items 111.33x64", "item gap 4px", "active r16 rgba #DBD4FA 28%", "active top line h4", "icons 24px labels 14/20"],
     arrows: [
       ["h", 0, 390, 116, "390px"],
-      ["v", -22, 0, 88, "88px"],
-      ["h", 0, 22, 100, "22px"],
-      ["h", 22, 104, 106, "82px"],
-      ["v", 402, 12, 68, "56px"],
+      ["v", -22, 0, 81, "81px"],
+      ["h", 0, 24, 100, "24px"],
+      ["h", 24, 135.33, 104, "111.33px"],
+      ["h", 135.33, 139.33, 104, "4px"],
+      ["v", 402, 9, 73, "64px"],
+      ["h", 40, 119.33, 88, "79.33px"],
+      ["v", 414, 9, 13, "4px"],
     ],
   },
   "17-bottom-sheet": {

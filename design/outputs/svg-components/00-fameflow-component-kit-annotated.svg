@@ -1115,46 +1115,66 @@
 <rect x="20" y="232" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="250" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="258" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">row 342x84 r20</text><text x="32" y="276" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 16px</text><text x="32" y="294" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">avatar r25 / 50px</text><text x="32" y="312" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">copy x82</text><text x="32" y="330" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">button 54x32 r16</text>
 </g>
 <g id="16-bottom-nav-annotated" transform="translate(32 4251)">
-<rect x="0" y="0" width="676" height="376" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
+<rect x="0" y="0" width="676" height="423" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
 <text x="20" y="28" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="0" text-anchor="start">16-bottom-nav</text>
-<text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 390 x 88px</text>
+<text x="20" y="50" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0" text-anchor="start">Canvas 390 x 81px</text>
 <g transform="translate(36 72)">
-<rect x="-1" y="-1" width="392" height="90" rx="0" fill="transparent" stroke="#EF4444" stroke-width="1" stroke-dasharray="6 4"/>
+<rect x="-1" y="-1" width="392" height="83" rx="0" fill="transparent" stroke="#EF4444" stroke-width="1" stroke-dasharray="6 4"/>
 
-      <rect x="0" y="0" width="390" height="88" rx="0" fill="rgba(250,250,252,0.96)" stroke="none" stroke-width="1" />
-      <rect x="22" y="12" width="82" height="56" rx="18" fill="#DBD4FA" stroke="none" stroke-width="1" />
-      <g transform="translate(51 19)"><path d="M12 3 14.4 9.1 21 9.4l-5.1 4.1 1.7 6.5-5.6-3.6L6.4 20l1.7-6.5L3 9.4l6.6-.3L12 3Z" stroke="#2D235F" stroke-width="1.8" stroke-linejoin="round"/></g><text x="63" y="58" fill="#2D235F" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="middle">Create</text>
-      <g transform="translate(137 19)"><rect x="4" y="5" width="16" height="14" rx="2" stroke="#6F6F7A" stroke-width="1.8"/><path d="m7 16 4-4 3 3 2-2 1 3" stroke="#6F6F7A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g><text x="149" y="58" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0" text-anchor="middle">Gallery</text>
-      <g transform="translate(226 19)"><circle cx="12" cy="8" r="4" stroke="#6F6F7A" stroke-width="1.8"/><path d="M5 21c1.4-4 4-6 7-6s5.6 2 7 6" stroke="#6F6F7A" stroke-width="1.8" stroke-linecap="round"/></g><text x="238" y="58" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0" text-anchor="middle">Co-Pilot</text>
-      <g transform="translate(316 19)"><path d="M5 7L19 7" stroke="#6F6F7A" stroke-width="2.4" stroke-linecap="round"/><path d="M5 12L19 12" stroke="#6F6F7A" stroke-width="2.4" stroke-linecap="round"/><path d="M5 17L19 17" stroke="#6F6F7A" stroke-width="2.4" stroke-linecap="round"/></g><text x="328" y="58" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0" text-anchor="middle">Menu</text>
+      <rect x="0" y="0" width="390" height="81" rx="0" fill="rgba(250,250,252,0.94)" stroke="none" stroke-width="1" />
+      <path d="M0 0.5H390" stroke="#E8E6F2" stroke-width="1"/>
+      <rect x="24" y="9" width="111.33" height="64" rx="16" fill="rgba(219,212,250,0.28)" stroke="none" stroke-width="1" />
+      <rect x="40" y="9" width="79.33" height="4" rx="2" fill="#DBD4FA" stroke="none" stroke-width="1" />
+      <g transform="translate(67.67 17)">
+        <rect x="6" y="8" width="12" height="9" rx="4" stroke="#2D235F" stroke-width="1.8"/>
+        <path d="M12 8V5M9 5h6M4 12h2M18 12h2" stroke="#2D235F" stroke-width="1.8" stroke-linecap="round"/>
+        <circle cx="10" cy="12.5" r=".8" fill="#2D235F"/><circle cx="14" cy="12.5" r=".8" fill="#2D235F"/>
+      </g>
+      <text x="79.67" y="61" fill="#2D235F" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="middle">Co-Pilot</text>
+      <g transform="translate(183 17)"><path d="M12 3 14.4 9.1 21 9.4l-5.1 4.1 1.7 6.5-5.6-3.6L6.4 20l1.7-6.5L3 9.4l6.6-.3L12 3Z" stroke="#6F6F7A" stroke-width="1.8" stroke-linejoin="round"/></g>
+      <text x="195" y="61" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="middle">Generate</text>
+      <g transform="translate(298.33 17)"><rect x="4" y="4" width="6" height="6" rx="1" stroke="#6F6F7A" stroke-width="1.8"/><rect x="14" y="4" width="6" height="6" rx="1" stroke="#6F6F7A" stroke-width="1.8"/><rect x="4" y="14" width="6" height="6" rx="1" stroke="#6F6F7A" stroke-width="1.8"/><rect x="14" y="14" width="6" height="6" rx="1" stroke="#6F6F7A" stroke-width="1.8"/></g>
+      <text x="310.33" y="61" fill="#6F6F7A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" letter-spacing="0" text-anchor="middle">Gallery</text>
     
+<path d="M0 101L0 117" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M390 101L390 117" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M0 109L390 109" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="195" y="103" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">390px</text>
+
+<path d="M-26 0L-10 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-26 81L-10 81" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M-18 0L-18 81" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="-18" y="34.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">81px</text>
+
 <path d="M0 108L0 124" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M390 108L390 124" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
   <path d="M0 116L390 116" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
   <text x="195" y="110" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">390px</text>
 
-<path d="M-26 0L-10 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-26 88L-10 88" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M-18 0L-18 88" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="-18" y="38" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">88px</text>
+<path d="M-30 0L-14 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-30 81L-14 81" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M-22 0L-22 81" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="-22" y="34.5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">81px</text>
 
-<path d="M0 108L0 124" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M390 108L390 124" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 116L390 116" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="195" y="110" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">390px</text>
+<path d="M0 92L0 108" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M24 92L24 108" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M0 100L24 100" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="12" y="94" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">24px</text>
 
-<path d="M-30 0L-14 0" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M-30 88L-14 88" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M-22 0L-22 88" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="-22" y="38" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">88px</text>
+<path d="M24 96L24 112" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M135.33 96L135.33 112" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M24 104L135.33 104" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="79.665" y="98" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">111.33px</text>
 
-<path d="M0 92L0 108" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M22 92L22 108" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M0 100L22 100" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="11" y="94" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">22px</text>
+<path d="M135.33 96L135.33 112" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M139.33 96L139.33 112" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M135.33 104L139.33 104" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="137.33" y="98" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">4px</text>
 
-<path d="M22 98L22 114" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M104 98L104 114" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M22 106L104 106" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="63" y="100" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">82px</text>
+<path d="M394 9L410 9" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M394 73L410 73" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M402 9L402 73" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="402" y="35" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">64px</text>
 
-<path d="M394 12L410 12" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M394 68L410 68" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
-  <path d="M402 12L402 68" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
-  <text x="402" y="34" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">56px</text>
+<path d="M40 80L40 96" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M119.33 80L119.33 96" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M40 88L119.33 88" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="79.66499999999999" y="82" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">79.33px</text>
+
+<path d="M406 9L422 9" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/><path d="M406 13L422 13" stroke="#EF4444" stroke-width="1" stroke-dasharray="4 4" stroke-linecap="round"/>
+  <path d="M414 9L414 13" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" marker-start="url(#arrow-red)" marker-end="url(#arrow-red)"/>
+  <text x="414" y="5" fill="#EF4444" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="0" text-anchor="middle">4px</text>
 
 
   <path d="M416 18L388 8" stroke="#2563EB" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
@@ -1167,7 +1187,7 @@
   <text x="416" y="42" fill="#2563EB" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="0" text-anchor="start">fill / color</text>
 
 </g>
-<rect x="20" y="236" width="292" height="116" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="254" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="262" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">bar 390x88</text><text x="32" y="280" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active item 82x56 r18</text><text x="32" y="298" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">left padding 22px</text><text x="32" y="316" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">nav spacing 36px approx</text><text x="32" y="334" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">bg rgba #FAFAFC 96%</text>
+<rect x="20" y="229" width="292" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1" /><text x="32" y="247" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="900" letter-spacing="0" text-anchor="start">Specs</text><text x="32" y="255" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">bar 390x81</text><text x="32" y="273" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">padding 8px 24px</text><text x="32" y="291" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">nav 342x64</text><text x="32" y="309" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">3 equal items 111.33x64</text><text x="32" y="327" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">item gap 4px</text><text x="32" y="345" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active r16 rgba #DBD4FA 28%</text><text x="32" y="363" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">active top line h4</text><text x="32" y="381" fill="#374151" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="0" text-anchor="start">icons 24px labels 14/20</text>
 </g>
 <g id="17-bottom-sheet-annotated" transform="translate(752 4251)">
 <rect x="0" y="0" width="676" height="594" rx="18" fill="#FFFFFF" stroke="#DEDBE8" stroke-width="1" />
